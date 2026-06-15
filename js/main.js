@@ -1,11 +1,6 @@
-function greetUser() {
-    let name = prompt("Будь ласка, введіть ваше ім'я:");
-    
-    if (name) {
-        console.log(`Привіт, ${name}!`);
-    } else {
-        console.log("Ім'я не було введено.");
-    }
+const func = function (x, y, action) {
+        return x + y;
 }
 
-greetUser();
+const result = func(5,5)
+console.log(result)
